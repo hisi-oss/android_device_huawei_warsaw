@@ -23,6 +23,33 @@ odm/etc/audio/ti/ti_WARSAW_GD_normal.xml
 odm/etc/audio/ti/ti_WARSAW_GK_normal.xml
 odm/etc/audio/ti/ti_default.xml
 
+# Camera (hwcam)
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.p.HI843_OFILM.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.p.IMX219_LITEON.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.p.IMX219_SUNNY.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.p.IMX386E3_OFILM.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.p.IMX386E3_SUNNY.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.p.IMX486_OFILM.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.p.IMX486_SUNNY.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.p.OV12870E3_LITEON.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.p.OV12A10_FOXCONN.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.p.OV12A10_LITEON.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.p.OV12A10_SUNNY.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.p.OV8856_SUNNY.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.s.HI843_OFILM.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.s.IMX219_LITEON.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.s.IMX219_SUNNY.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.s.IMX386E3_OFILM.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.s.IMX386E3_SUNNY.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.s.IMX486_OFILM.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.s.IMX486_SUNNY.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.s.OV12870E3_LITEON.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.s.OV12A10_FOXCONN.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.s.OV12A10_LITEON.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.s.OV12A10_SUNNY.so
+odm/lib64/hwcam/hwcam.hi6250.WARSAW.s.OV8856_SUNNY.so
+odm/lib64/hwcam/hwcam.hi6250.m.WARSAW.so
+
 # Camera configs
 odm/etc/camera/mmi7cm/device.config
 odm/etc/camera/mmi7cm/warsaw_imx386e3_ofilm/mmi7cmConfig.xml
