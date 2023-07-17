@@ -16,12 +16,12 @@ odm/etc/audio/modem/modem_WARSAW_cmcciot.xml
 odm/etc/audio/modem/modem_WARSAW_gcf.xml
 odm/etc/audio/modem/modem_WARSAW_normal.xml
 odm/etc/audio/modem/modem_WARSAW_unicomiot.xml
+odm/etc/audio/sws/sws_WARSAW_normal.xml
 odm/etc/audio/sws/sws_config.txt
 odm/etc/audio/sws/sws_default.xml
-odm/etc/audio/sws/sws_WARSAW_normal.xml
-odm/etc/audio/ti/ti_default.xml
 odm/etc/audio/ti/ti_WARSAW_GD_normal.xml
 odm/etc/audio/ti/ti_WARSAW_GK_normal.xml
+odm/etc/audio/ti/ti_default.xml
 
 # Camera configs
 odm/etc/camera/mmi7cm/device.config
