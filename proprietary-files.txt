@@ -34,6 +34,10 @@ odm/etc/camera/mmi7cm/warsaw_ov12a10_foxconn/mmi7cmConfig.xml
 odm/etc/camera/mmi7cm/warsaw_ov12a10_liteon/mmi7cmConfig.xml
 odm/etc/camera/mmi7cm/warsaw_ov12a10_sunny/mmi7cmConfig.xml
 
+# NFC configs
+product/etc/nfc/libnfc_brcm_was_L21.conf:vendor/etc/libnfc-brcm.conf
+product/etc/nfc/libnfc_nxp_was_L21.conf:vendor/etc/libnfc-nxp.conf
+
 # Touchscreen firmware
 odm/etc/firmware/ts/warsaw_focal_pram_8716.img
 odm/etc/firmware/ts/warsaw_fts_wasw30110_tianma.img
