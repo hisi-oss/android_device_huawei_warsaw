@@ -8,6 +8,12 @@
 
 function blob_fixup() {
     case "${1}" in
+        odm/lib64/hwcam/hwcam.hi6250.m.WARSAW.so)
+            "${PATCHELF}" --add-needed "libtinyxml2_shim.so" "${2}"
+            # NOP out assertOk() and return_status()
+            "${SIGSCAN}" -p "e0 83 04 91 80 4b f5 97" -P "e0 83 04 91 1f 20 03 d5" -f "${2}"
+            "${SIGSCAN}" -p "e0 83 04 91 81 4b f5 97" -P "e0 83 04 91 1f 20 03 d5" -f "${2}"
+            ;;
         vendor/etc/camera/*|odm/etc/camera/*)
             sed -i 's/gb2312/iso-8859-1/g' "${2}"
             sed -i 's/GB2312/iso-8859-1/g' "${2}"
