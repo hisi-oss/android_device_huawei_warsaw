@@ -75,9 +75,3 @@ odm/etc/firmware/ts/warsaw_ilitek_ws29080_jdi.bin
 odm/etc/firmware/ts/warsaw_novatek_WASW38140_ctc.bin
 odm/etc/firmware/ts/warsaw_synaptics_wasw11140_ctc.img
 odm/etc/firmware/ts/warsaw_synaptics_wasw28170_auo.img
-product/etc/firmware/ts/warsaw_focal_pram_8716.img
-product/etc/firmware/ts/warsaw_fts_wasw30110_tianma.img
-product/etc/firmware/ts/warsaw_ilitek_ws29080_jdi.bin
-product/etc/firmware/ts/warsaw_novatek_WASW38140_ctc.bin
-product/etc/firmware/ts/warsaw_synaptics_wasw11140_ctc.img
-product/etc/firmware/ts/warsaw_synaptics_wasw28170_auo.img
