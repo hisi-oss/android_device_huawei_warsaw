@@ -65,6 +65,9 @@ odm/etc/camera/mmi7cm/warsaw_ov12a10_sunny/mmi7cmConfig.xml
 product/etc/nfc/libnfc_brcm_was_L21.conf:vendor/etc/libnfc-brcm.conf
 product/etc/nfc/libnfc_nxp_was_L21.conf:vendor/etc/libnfc-nxp.conf
 
+# NFC firmware
+vendor/firmware/libpn551_fw_10_05_03_64bits.so:vendor/lib64/libpn551_fw.so
+
 # Touchscreen firmware
 odm/etc/firmware/ts/warsaw_focal_pram_8716.img
 odm/etc/firmware/ts/warsaw_fts_wasw30110_tianma.img
