@@ -14,11 +14,6 @@ function blob_fixup() {
             "${SIGSCAN}" -p "e0 83 04 91 80 4b f5 97" -P "e0 83 04 91 1f 20 03 d5" -f "${2}"
             "${SIGSCAN}" -p "e0 83 04 91 81 4b f5 97" -P "e0 83 04 91 1f 20 03 d5" -f "${2}"
             ;;
-        vendor/etc/camera/*|odm/etc/camera/*)
-            sed -i 's/gb2312/iso-8859-1/g' "${2}"
-            sed -i 's/GB2312/iso-8859-1/g' "${2}"
-            sed -i 's/xmlversion/xml version/g' "${2}"
-            ;;
         vendor/etc/libnfc-brcm.conf)
             sed -i 's\/data/nfc\/data/vendor/nfc\g' "${2}"
             ;;
