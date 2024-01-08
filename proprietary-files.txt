@@ -1,4 +1,4 @@
-# Unpinned blobs from WAS-LX1A-user 8.0.0 HUAWEIWAS-LX1A 366(C432) release-keys
+# Unpinned blobs from WAS-LX1A-user 8.0.0 HUAWEIWAS-LX1A 397(C432) release-keys
 
 # Audio configs
 odm/etc/audio/algorithm/algorithm_WARSAW_normal.xml
